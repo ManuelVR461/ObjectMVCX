@@ -19,9 +19,9 @@ class Router{
                 $controller->render($this->route);
             }else{
                 
-                // $user_session = new SessionController;
-                // $user_session->logout();
-                // header('Location: ./');
+                $user_session = new SessionController;
+                $user_session->logout();
+                header('Location: ./');
             }
             
         }else{
