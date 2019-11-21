@@ -2,12 +2,11 @@
 class Config{
 	
 
-    const APP_NAME="ObjectMVCX"; //Nombre del Proyecto
-    const APP_TITLE="Simple Framework MVC"; //titulo del Proyecto
+    const APP="ObjectMVCX"; //Nombre del Proyecto
     const DRIVER_DB = "PDO"; //Driver de conexion con base de Datos //PDO,MYSQL,POSTGRESS,SQLSERVER,SQLITE
-    const DB_NAME="ObjectMVCX"
-    const USER = "root"; //Usuario de Base de Datos
-    const PASS = ""; //Password de Base de Datos
+    const DB_NAME="db_objectmvcx";
+    const USER = "mramirez"; //Usuario de Base de Datos
+    const PASS = "@mramirez123"; //Password de Base de Datos
     const SECRET_KEY='CentralOnline@2019'; //Clave Secreta de Encryptcion
     const SECRET_IV='123456'; //Clave Publica de Desencryptacion
 
@@ -16,9 +15,9 @@ class Config{
 
     const SERVER ="localhost";
     const CHARSET = "utf8";
-    const URL = "http://".self::SERVER."/".APP_NAME."/";
+    const URL = "http://".self::SERVER."/".self::APP."/";
 
-    const SGBD = "mysql:host=".self::SERVER.";dbname=".self::DB.";charset=".self::CHARSET;
+    const SGBD = "mysql:host=".self::SERVER.";dbname=".self::DB_NAME.";charset=".self::CHARSET;
     const METHOD="AES-256-CBC";
     
     
