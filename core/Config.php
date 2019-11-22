@@ -20,6 +20,9 @@ class Config{
     const SGBD = "mysql:host=".self::SERVER.";dbname=".self::DB_NAME.";charset=".self::CHARSET;
     const METHOD="AES-256-CBC";
     
+    const CONTROLLER_PATH = './controllers/';
+    const MODEL_PATH = './models/';
+    const VIEW_PATH = './views/';
     
     public function __construct(){
         date_default_timezone_set('America/Santiago');
