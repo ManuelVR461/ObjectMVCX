@@ -358,6 +358,7 @@ div.main{
   background-position: center;
 }
 
+
 /*   NAV MENU */
 
 .navbar {
@@ -381,6 +382,7 @@ div.main{
   -ms-flex-pack: start;
   justify-content: flex-start;
 }
+
 .nav-item {
   border-bottom: 0;
   cursor: pointer;
@@ -402,6 +404,8 @@ div.main{
   display: block;
   padding: .5rem 1rem;
 }
+
+
 
 .dropdown-menu {
   font-size: 1rem;

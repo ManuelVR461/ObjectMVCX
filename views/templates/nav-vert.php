@@ -22,8 +22,13 @@
 
     <nav class="contenedor-menu">
         <div class="menu">
-
-
+            <ul>
+                <li class="#">
+                    <a href="Home">
+                        <i class="icono izq fa fa-clock"></i>HOME 
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
 </div>

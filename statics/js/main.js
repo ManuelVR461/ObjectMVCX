@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-    $('.menu > ul > li > a').click(function(e) {
+    $('.menu > ul > li > a').click(function(e) {        
         e.preventDefault();
         const element = $(this).next();
 
@@ -20,6 +20,7 @@ $(document).ready(function(){
     });
 
     $('.menu > ul > li > ul > li > a').click(function() {
+        
         var element = $(this).next();
         $('.menu ul ul li').removeClass('activado');
         $(this).closest('ul ul li').addClass('activado');
