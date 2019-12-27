@@ -26,6 +26,9 @@ body {
 div.main{
     height:calc(100vh);
     width:100%;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* menu */
@@ -572,9 +575,77 @@ fieldset{
 }
 .login-title{
 	position: absolute;
-	top: 200px;
+	top: 160px;
 	width: 100%;
 }
 .login-title h1{
 	text-align:center;
+}
+
+.CuadroListas{
+  border: 15px solid grey;
+  height:calc(80vh);
+  background: #FFF;
+  vertical-align: top;
+}
+
+/* formularios template */
+.form-content{
+  margin-bottom: 10px;
+  background: rgb(230, 248, 247);
+  padding-top: 15px;
+  margin-bottom: -2px;
+}
+
+fieldset.fieldset-border {
+  margin-top: 20px;
+  border: 0px groove #ddd !important;
+  padding: 0 1.4em 1.4em 1.4em !important;
+}
+
+legend.fieldset-border {
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  text-align: left !important;
+}
+
+.header-list{
+  background: rgb(230, 248, 247);
+  padding: 5px;
+  margin-bottom: 1px;
+}
+.btn-list{
+  font-size: 12px;
+  max-height: 28px;
+}
+.btn-list-item{
+  font-size: 10px;
+  max-height: 25px;
+}
+.btns-form{
+  text-align: right;
+}
+
+/*  tables */
+.table-responsive{
+  margin: 20px;
+}
+.col-idx{
+  width: 15px;
+  text-align: center;
+}
+.col-btn{
+  width: 100px;
+  text-align: center;
+}
+.col-sdo{
+  width: 100px;
+  text-align: right;
+}
+.table > thead{
+  font-weight: bold;
+}
+.table-title {
+  font-size: 14px;
+  font-weight: bold;
 }

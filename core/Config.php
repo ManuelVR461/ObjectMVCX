@@ -1,6 +1,8 @@
 <?php
 class Config{
-	
+    const APP_VERSION = '1.000'; //Version de la Aplicacion
+    const APP_DATE_VERSION = '27-12-2019';
+    const APP_DEVELOPER= 'Ing. Manuel Ramirez (ManuelVR461@gmail.com)';
 
     const APP="ObjectMVCX"; //Nombre del Proyecto
     const DRIVER_DB = "PDO"; //Driver de conexion con base de Datos //PDO,MYSQL,POSTGRESS,SQLSERVER,SQLITE
@@ -23,10 +25,11 @@ class Config{
     const CONTROLLER_PATH = './controllers/';
     const MODEL_PATH = './models/';
     const VIEW_PATH = './views/';
-    
+    const LIST_PATH = './views/lists/';
+    const LOGS_PATH = './logs/';
+
     public function __construct(){
         date_default_timezone_set('America/Santiago');
-        
     }
     
 }

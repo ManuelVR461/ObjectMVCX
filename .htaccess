@@ -1,7 +1,7 @@
 Options +FollowSymLinks
 RewriteEngine On
 
-RewriteBase /ObjectMVX
+RewriteBase /ObjectMVCX
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
